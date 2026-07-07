@@ -1,0 +1,13 @@
+﻿using System.Globalization;
+
+namespace EmployeeAdminPortal.Models.Entities
+{
+    public class Employee
+    {
+        public Guid Id { get; set; }
+        public  required string Name { get; set; }
+        public required String Email { get; set; }
+        public string? Phone { get; set; }
+        public decimal Salary { get; set; }
+    }
+}
